@@ -1,5 +1,5 @@
 # Sudoku Solver
-Solve a user-provided Sudoku Board using a recursive backtracking algorithm
+Solve a user-provided Sudoku Board using a naive recursive backtracking algorithm
 
 ## Usage
 ```go
@@ -16,7 +16,7 @@ func main() {
 }
 ```
 ## CLI Example 
-Using ["the world's hardest sudoku"](https://abcnews.go.com/blogs/headlines/2012/06/can-you-solve-the-hardest-ever-sudoku) as input:
+Using the ["world's most difficult sudoku"](https://abcnews.go.com/blogs/headlines/2012/06/can-you-solve-the-hardest-ever-sudoku) as input:
 ```
 $ go run main.go
 Input Sudoku row #1: 800000000
